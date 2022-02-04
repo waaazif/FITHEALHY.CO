@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/*navbar styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    justify-content: center;
+    font: bold;
+    top: 10px;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -40px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.navbar .logo a span {
+    color: rgb(38, 38, 73);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: white;
+    font-size: 18px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+    font-weight: 500;
+    margin-left: 25px; 
+    padding: 12px 14px;
+    transition: 0.2s;
+}
+
+.navbar .menu li a:hover {
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.text h1 {
+    margin-left: 120px;   
+    margin-top: 130px;
+    font-size: 120px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #f7bc99;
+}

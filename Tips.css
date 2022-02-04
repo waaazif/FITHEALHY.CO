@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Caveat:wght@500&family=Cinzel&family=Cookie&family=Dongle&family=Indie+Flower&family=Lobster&family=Luckiest+Guy&family=Luxurious+Roman&family=Pacifico&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* Tips section styling */
+.tips{
+    display: flex;
+    height: 80vh;
+    min-height: 450px;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 100px 0px;
+}
+.tips .max-width{
+    margin: left;   
+}
+.tips .tips-content .headings{
+    font-size: 100px;
+    font-family: "Staatliches";
+    color: white;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+.tips .tips-content .Quote{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    font-family: "Luckiest Guy";
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 0px;
+    margin: 10px;
+}
+.card{
+    height: 300px;
+    width: 290px;
+    background-color: rgb(214, 255, 243);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 15px;
+    padding: 15px;
+    margin: 20px;
+}
+.card i{
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+}
+.h3{
+    font-size: 40px;
+    line-height: 10px;
+    margin-bottom: 15px;
+    color: black
+}
+.pra{
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}

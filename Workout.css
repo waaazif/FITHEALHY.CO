@@ -1,0 +1,193 @@
+/* workout styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.text h1 {
+    margin-left: 120px;   
+    margin-top: 130px;
+    font-size: 120px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #f7bc99;
+    
+}
+
+.image {
+    margin-left: 600px;
+    margin-top: -2260px;
+}
+
+.image2 {
+    margin-left: 580px;
+    margin-top: -380px;
+}
+
+.text h2 {
+    font-size: 36px;
+    color:rgb(185, 238, 247);
+    margin-top: -480px;
+    margin-left: 780px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.text h3 {
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 460px;
+    margin-left: 260px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    display: inline-block; 
+    text-align: left;
+}
+
+.image3 {
+    margin-left: 650px;
+    margin-top: -160px;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px; 
+    color: #fdb4b4;
+}
+
+.text h4 {
+    font-size: 36px;
+    color:rgb(185, 238, 247);
+    margin-left: 780px;
+    margin-top: 200px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.image4 {
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.image5 {
+    margin-left: 580px;
+    margin-top: -380px;
+}
+
+.text h5 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-left: 260px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    display: inline-block; 
+    text-align: left;
+    
+}
+
+.image6 {
+    margin-left: 650px;
+    margin-top: -170px;
+}
+
+.quote2 {
+    margin-left: 330px;
+    margin-top: 30px;
+    font-size: 40px; 
+    color: #fdb4b4;
+    
+}
+
+div.aerobic {
+    margin: 30px;
+    border: 0px solid rgb(243, 218, 223);
+    float: left;
+    width: 400px;
+    margin-left: 240px;
+  }
+  
+  div.aerobic img {
+    width: 400px;
+    height: 300px;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+.text h6 {
+    font-size: 36px;
+    color:rgb(185, 238, 247);
+    margin-left: 780px;
+    line-height: 14em;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.image7 {
+    margin-left: 600px;
+    margin-top: -220px;
+}
+
+.image8 {
+    margin-left: 580px;
+    margin-top: -380px;
+}
+
+.text p {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-left: 260px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    display: inline-block; 
+    text-align: left;
+    
+}
+
+.table {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 260px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    display: inline-block; 
+    text-align: left;
+
+}
+
+.quote3 {
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-left: 260px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    text-align: left;
+}
+
+div.video {
+    margin: 30px;
+    border: 0px solid rgb(243, 218, 223);
+    float: left;
+    width: 400px;
+    margin-left: 240px;
+  }
+  
+  div.video video {
+    width: 400px;
+    height: 300px;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
